@@ -1,0 +1,22 @@
+{
+  "name": "nebo9-tg-bot-ts",
+  "version": "1.0.0",
+  "main": "./lib/bot.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc --project ./",
+    "start": "node ./lib/bot.js",
+    "dev": "nodemon ./lib/bot.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@grammyjs/menu": "^1.1.2",
+    "grammy": "^1.9.2",
+    "grammy-scenes": "^7.3.0",
+    "sequelize": "^6.21.3",
+    "sqlite3": "^5.0.10"
+  }
+}
