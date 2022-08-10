@@ -40,12 +40,12 @@ AddKeyScene.wait().on('message:text', async ctx => {
     const answer = ctx.session.answer = ctx.message.text;
 
     await ctx.reply(
-        'Итак, дружочек\\-пирожочек\n' +
+        'Итак, дружочек-пирожочек\n' +
         `Мы зарегистрировали ответ \'${answer}\'\n\n` +
         'И теперь у нас имеется:\n' +
-        `**Ключ**: \'${key}\'\n` +
-        `**Ответ**: \'${answer}`
-    , { parse_mode: 'MarkdownV2', reply_markup: AddKeyMenu });
+        `Ключ: \'${key}\'\n` +
+        `Ответ: \'${answer}`
+    , { reply_markup: AddKeyMenu });
 
     ctx.scene.exit();
 });
