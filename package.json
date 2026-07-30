@@ -16,7 +16,7 @@
     "@grammyjs/menu": "^1.1.2",
     "grammy": "^1.9.2",
     "grammy-scenes": "^7.3.0",
-    "sequelize": "^6.21.3",
-    "sqlite3": "^5.0.10"
+    "sequelize": "*",
+    "sqlite3": "*"
   }
 }
